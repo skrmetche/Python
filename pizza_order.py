@@ -25,7 +25,7 @@ def pizza_order():
     pepperoni = input("Do you want pepperoni on your pizza? y or n: ").lower()
     if size == "s" and pepperoni == "y":
         pepperoni = 2
-    elif size == "m" or "l" and pepperoni == "y":
+    elif (size == "m" or "l") and pepperoni == "y":
         pepperoni = 3
     elif pepperoni == "n":
         pepperoni = 0
